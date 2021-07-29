@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -31,4 +34,16 @@
 
 .box-shadow-card {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card-width {
+  width: 360px;
+}
+
+.card-bg-color {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card-bg-color-1 {
+  background-color: hsla(0, 0%, 100%, 0.8);
 }
